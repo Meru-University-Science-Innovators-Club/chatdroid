@@ -71,23 +71,20 @@ class WelcomePage extends StatelessWidget {
                 Text(
                   'Chat with PDF & Images',
                   style: context.textTheme.bodyLarge!.copyWith(
-                    fontSize: 32,
-                    fontWeight: FontWeight.w600,
-                    letterSpacing: 1.5
-                  ),
+                      fontSize: 32,
+                      fontWeight: FontWeight.w600,
+                      letterSpacing: 1.5),
                 ),
                 ElevatedButton(
-                  onPressed: () {}, 
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: context.colorScheme.onSurface,
-                    minimumSize: const Size(double.infinity, 56)
-                  ),
-                  child: Text(
-                    "Get Started",
-                    style: context.textTheme.labelLarge!
-                    .copyWith(color: context.colorScheme.surface),
-                  )
-                  )
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: context.colorScheme.onSurface,
+                        minimumSize: const Size(double.infinity, 56)),
+                    child: Text(
+                      "Get Started",
+                      style: context.textTheme.labelLarge!
+                          .copyWith(color: context.colorScheme.surface),
+                    ))
               ],
             ),
           )
